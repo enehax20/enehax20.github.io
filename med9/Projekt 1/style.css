@@ -1,0 +1,21 @@
+img {
+	width: 500px;
+	float: right;
+}
+#Hund {
+	float: left;
+}
+a {
+	float: right;
+}
+body {
+	background-color: yellow;
+}
+h2 {
+	font-size: 14px;
+	background-color: lightblue;
+}
+img {
+	border: 5px solid green;
+	border-color: green;
+}
