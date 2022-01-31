@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@100&family=Roboto+Slab:wght@200&family=Source+Code+Pro:wght@200&display=swap');
+
+
+
+
+h1 {
+	background-color: lightblue;
+	padding: 50px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 5px;
+font-family: 'Roboto Slab', serif;
+
+}
+h2 {
+	padding: 30px;
+	background-color: red;
+	font-size: 40px;
+	text-align: right;
+	font-family: 'Comforter', cursive;
+
+
+}
+p {
+	padding: 30px;
+	font-size: 23px;
+	text-align: justify;
+	column-count: 3;
+	line-height: 1.7;
+font-family: 'Poppins', sans-serif;
+}
+.enes {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 50px;
+	padding: 50px;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 20px;
+	transform: rotate(-5deg);
+}
+body {
+	background: linear-gradient(0deg, rgba(157,235,59,1) 32%, rgba(233,0,0,1) 69%, rgba(253,45,161,1) 100%);
+}
+
