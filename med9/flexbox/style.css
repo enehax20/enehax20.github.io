@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+h1 {
+	background-color: green;
+	text-align: center;
+	font-family: 'Festive', cursive;
+}
+.montag {
+	height: 300px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	background-color: yellow;
+}
+.dienstag {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 200px;
+	font-size: 25px;
+	background-color: lightblue;
+}
+p {
+	background-color: red;
+}
+.mittag {
+	height: 400px;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	background-color: blue;
+}
+.donnerstag {
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(134,29,253,1) 32%, rgba(252,176,69,1) 65%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	width: 250px;
+}
