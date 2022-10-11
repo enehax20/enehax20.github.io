@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>progresbar</title>
+</head>
+<style type="text/css">
+
+body {
+	background-color: skyblue;
+}
+
+p {
+color: darkorange;
+font-size: 30px;
+letter-spacing: 5px;
+}
+
+
+@keyframes main {
+	50%{width: 25%;}
+	75%{width: 50%;}
+	85%{width: 75%;}
+}
+
+.container{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+.container .one{
+	border: 10px solid;
+height: 10px;
+width: 250px;
+border-radius: 15px;
+}
+
+.container .one .second {
+border: 10px solid;
+height: 10px;
+width: 250px;
+border-radius: 15px;
+animation: main 2s;
+}
+
+
+</style>
+<body>
+<p>progressing</p>
+<div class="container">
+	<div class="one"></div>
+	<div class="second"></div>
+</div>
+
+</body>
+</html>
