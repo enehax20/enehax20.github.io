@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>progresbar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Progress</title>
+	<style type="text/css">
+		
+		body{
+			background-color: #2a9d8f;
+		}
+
+		p{
+			color: darkorange;
+			font-size: 30px;
+			letter-spacing: 5px;
+			margin-top: 400px;
+			margin-left: 50px;
+		}
+
+		@keyframes startt{
+			0%{width: 0%;}
+			50%{width: 25%}
+			75%{width: 50%;}
+			85%{width: 75%;}
+		}
+
+		.container{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+		}
+
+		.container .main{
+			border: 10px solid #f4a261;
+			height: 10px;
+			width: 250px;
+			border-radius: 15px;
+			margin-left: 50px;
+		}
+
+		.container .progress{
+			background-color: white;
+			height: 10px;
+			width: 250px;
+			border-radius: 15px;
+			animation: startt 4s;
+		}
+
+
+	</style>
 </head>
-<style type="text/css">
-
-body {
-	background-color: skyblue;
-}
-
-p {
-color: darkorange;
-font-size: 30px;
-letter-spacing: 5px;
-}
-
-
-@keyframes main {
-	50%{width: 25%;}
-	75%{width: 50%;}
-	85%{width: 75%;}
-}
-
-.container{
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-
-.container .one{
-	border: 10px solid;
-height: 10px;
-width: 250px;
-border-radius: 15px;
-}
-
-.container .one .second {
-border: 10px solid;
-height: 10px;
-width: 250px;
-border-radius: 15px;
-animation: main 2s;
-}
-
-
-</style>
 <body>
-<p>progressing</p>
-<div class="container">
-	<div class="one"></div>
-	<div class="second"></div>
-</div>
+
+	<p>Progressing ...</p>
+
+	<div class="container">
+		<div class="main">
+			<div class="progress"></div>
+		</div>
+	</div>
 
 </body>
 </html>
