@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Footer</title>
+	<style type="text/css">
+		
+
+
+footer {
+	background-color: blueviolet;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+}
+
+footer p,  h2 {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+a:hover{
+	background-color: white;
+}
+
+
+@media(min-width: 768px) {
+
+footer {
+	flex-direction: row;
+
+}
+
+footer p,  h2 {
+	text-align: left;
+}
+
+.container {
+	width: 25%;
+}
+
+.container2 {
+width: 25%;
+
+}
+.container3 {
+width: 50%;
+}
+
+
+}
+
+
+
+	</style>
+</head>
+<body>
+
+<footer>
+<div class="container">
+	<h2>About</h2>
+<p><a href="google.com">Link 1</a></p>
+<p><a href="google.com">Link 2</a></p>
+<p><a href="google.com">Link 3</a></p>
+</div>
+
+
+<div class="container2">
+	<h2>Services</h2>
+	<p><a href="google.com">Link 1</a></p>
+	<p><a href="google.com">Link 2</a></p>
+	<p><a href="google.com">Link 3</a></p>
+
+</div>
+
+
+<div class="container3">
+	<h2>Our company</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat, ligula nec volutpat blandit, mauris elit venenatis neque, ut facilisis dui libero vel nulla. Suspendisse porttitor mi nec malesuada viverra. Nam porttitor quis nisi a blandit. Integer blandit volutpat velit ac tristique. Morbi maximus massa vel nulla consequat, sit amet pharetra purus suscipit. Donec tempus dignissim massa eu elementum. Maecenas volutpat in nulla ut porta. Curabitur augue odio, egestas et laoreet id, hendrerit in leo.</p>
+
+</div>
+</footer>
+
+</body>
+</html>
